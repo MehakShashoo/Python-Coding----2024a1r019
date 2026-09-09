@@ -9,7 +9,8 @@ while True:
 
     if len(pin) != 4 or not pin.isdigit():
         print("Error: PIN must contain exactly 4 digits.")
-    elif pin == correct_pin:
+        continue
+    if pin == correct_pin:
         print("Lock is open")
         break
     else:
