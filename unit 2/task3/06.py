@@ -1,5 +1,10 @@
 '''
 wap in python to create a centered pyramid using stars 
+          * 
+        * * * 
+      * * * * * 
+    * * * * * * * 
+  * * * * * * * * * 
 '''
 n = int(input("Enter the number of rows: "))
 for i in range(n):
