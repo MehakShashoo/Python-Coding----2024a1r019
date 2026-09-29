@@ -10,12 +10,9 @@
 # Do not sort the list because the original test order matters.
 
 marks = list(map(int, input("Enter marks: ").split()))
-
 n = len(marks)
-
 longest = [marks[0]]
 current = [marks[0]]
-
 start = 1
 longest_start = 1
 
@@ -30,7 +27,6 @@ for i in range(1, n):
         current = [marks[i]]
         start = i + 1
 
-# Check the last sequence
 if len(current) > len(longest):
     longest = current.copy()
     longest_start = start
