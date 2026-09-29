@@ -1,0 +1,1 @@
+# wap in python to store one student data as tuple: name, rollno and marks and display grade on basis of marks

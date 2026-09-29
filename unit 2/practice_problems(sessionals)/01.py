@@ -1,0 +1,1 @@
+# wap in python to input a student's marks in n consecutive
